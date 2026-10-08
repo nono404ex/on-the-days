@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#141112">
+
+  <title>on the days — astrid</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="background"></div>
+  <div class="grain"></div>
+
+  <audio id="music" loop preload="metadata">
+    <source src="assets/rehat.mp3" type="audio/mpeg">
+  </audio>
+
+  <button class="music-toggle" id="musicToggle" aria-label="toggle music">
+    <span class="music-icon">♪</span>
+    <span class="music-label">rehat</span>
+  </button>
+
+  <main class="site">
+
+    <section class="screen hero active">
+      <div class="hero-content reveal">
+
+        <p class="eyebrow">
+          for astrid, on the days you need it.
+        </p>
+
+        <h1>
+          hey, astrid.
+        </h1>
+
+        <p class="intro">
+          there’s something i wanted you to remember.
+        </p>
+
+        <button class="primary" data-next="message" id="openButton">
+          open this
+        </button>
+
+        <p class="music-credit">
+          rehat — kunto aji
+        </p>
+
+      </div>
+
+      <div class="scroll-note">
+        scroll slowly
+      </div>
+    </section>
+
+
+    <section class="screen section" id="message">
+
+      <div class="content-card reveal">
+
+        <p class="eyebrow">
+          a small reminder
+        </p>
+
+        <h2>
+          take care of yourself too.
+        </h2>
+
+        <p class="headline-note">
+          bukan karena harus, tapi karena kamu juga penting.
+        </p>
+
+        <div class="divider"></div>
+
+        <p>
+          kamu nggak harus selalu kuat, selalu produktif,
+          atau selalu tahu harus ngapain.
+        </p>
+
+        <p>
+          ada hari ketika semuanya terasa gampang,
+          ada juga hari ketika sekadar jalanin hari aja udah cukup.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <section class="screen section" id="college">
+
+      <div class="split reveal">
+
+        <div>
+
+          <p class="eyebrow">
+            about college
+          </p>
+
+          <h2>
+            kamu boleh punya target tinggi.
+          </h2>
+
+        </div>
+
+        <div class="copy">
+
+          <p>
+            boleh ambisius.
+            boleh serius.
+            boleh pengen hasil yang bagus.
+          </p>
+
+          <p>
+            tapi jangan sampai nilai, tugas, atau deadline
+            bikin kamu lupa kalau kamu juga manusia.
+          </p>
+
+          <p>
+            kalau suatu hari hasilnya nggak sesuai yang kamu mau,
+            itu bukan berarti usaha kamu sia-sia.
+          </p>
+
+          <button class="ghost" id="needed">
+            i needed this
+          </button>
+
+          <p class="tiny-response" id="neededText"></p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="screen section" id="uts">
+
+      <div class="center-card reveal">
+
+        <p class="eyebrow">
+          for your uts
+        </p>
+
+        <h2>
+          good luck, astrid.
+        </h2>
+
+        <p>
+          semoga apa yang udah kamu pelajari sejauh ini
+          keluar pas kamu butuhin.
+        </p>
+
+        <p>
+          jangan terlalu mikirin harus sempurna.
+          kerjain yang kamu bisa, satu soal demi satu soal.
+        </p>
+
+        <p class="quote">
+          “you’ve prepared for this. trust yourself.”
+        </p>
+
+        <p>
+          kalau ada yang susah, jangan langsung ngerasa
+          kamu nggak mampu. kadang emang soalnya aja yang goblok.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <section class="screen section dark-section" id="heavy">
+
+      <div class="center-card reveal">
+
+        <p class="eyebrow">
+          when things get heavy
+        </p>
+
+        <h2>
+          kalau lagi capek,
+          nggak harus pura-pura baik-baik aja.
+        </h2>
+
+        <p>
+          ambil waktu.
+          berhenti sebentar.
+          beresin satu hal dulu.
+          sisanya bisa menyusul.
+        </p>
+
+        <p class="quote">
+          you don't have to figure everything out today.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <section class="screen section" id="care">
+
+      <div class="care-wrap reveal">
+
+        <div>
+
+          <p class="eyebrow">
+            keep this in mind
+          </p>
+
+          <h2>
+            be a little kinder to yourself.
+          </h2>
+
+          <p class="care-intro">
+            nggak cuma soal makan atau minum.
+            lebih luas dari itu.
+          </p>
+
+        </div>
+
+
+        <div class="care-grid">
+
+          <article>
+            <span>01</span>
+            <p>sleep when you need to.</p>
+          </article>
+
+          <article>
+            <span>02</span>
+            <p>eat properly.</p>
+          </article>
+
+          <article>
+            <span>03</span>
+            <p>drink enough.</p>
+          </article>
+
+          <article>
+            <span>04</span>
+            <p>take a break.</p>
+          </article>
+
+          <article>
+            <span>05</span>
+            <p>don't ignore yourself.</p>
+          </article>
+
+          <article>
+            <span>06</span>
+            <p>don't be too hard on yourself.</p>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="screen section" id="random">
+
+      <div class="center-card reveal">
+
+        <p class="eyebrow">
+          one more thing
+        </p>
+
+        <h2 id="randomText">
+          you’re doing better than you think.
+        </h2>
+
+        <button class="primary" id="randomButton">
+          one more thing
+        </button>
+
+        <p class="tiny-note">
+          press it whenever you need a different reminder.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <section class="screen section ending" id="end">
+
+      <div class="ending-card reveal">
+
+        <p class="eyebrow">
+          that’s it.
+        </p>
+
+        <h2>
+          nggak ada pesan besar.
+        </h2>
+
+        <p>
+          nggak ada maksud aneh.
+        </p>
+
+        <p>
+          cuma pengingat kecil,
+          kalau di tengah semua hal yang lagi kamu kejar,
+          jangan lupa jagain diri sendiri juga.
+        </p>
+
+        <div class="ending-line"></div>
+
+        <h3>
+          take care, astrid.
+        </h3>
+
+        <p class="closing">
+          see you on better days.
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <nav class="progress">
+
+    <button class="dot active" data-target="0"></button>
+    <button class="dot" data-target="1"></button>
+    <button class="dot" data-target="2"></button>
+    <button class="dot" data-target="3"></button>
+    <button class="dot" data-target="4"></button>
+    <button class="dot" data-target="5"></button>
+    <button class="dot" data-target="6"></button>
+
+  </nav>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
